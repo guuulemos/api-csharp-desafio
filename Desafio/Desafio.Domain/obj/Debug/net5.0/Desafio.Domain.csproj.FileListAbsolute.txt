@@ -1,0 +1,14 @@
+C:\Users\conta\Documents\Workspace\Desafio\Desafio.Domain\bin\Debug\net5.0\Desafio.Domain.deps.json
+C:\Users\conta\Documents\Workspace\Desafio\Desafio.Domain\bin\Debug\net5.0\Desafio.Domain.dll
+C:\Users\conta\Documents\Workspace\Desafio\Desafio.Domain\bin\Debug\net5.0\ref\Desafio.Domain.dll
+C:\Users\conta\Documents\Workspace\Desafio\Desafio.Domain\bin\Debug\net5.0\Desafio.Domain.pdb
+C:\Users\conta\Documents\Workspace\Desafio\Desafio.Domain\bin\Debug\net5.0\Desafio.Infra.dll
+C:\Users\conta\Documents\Workspace\Desafio\Desafio.Domain\bin\Debug\net5.0\Desafio.Infra.pdb
+C:\Users\conta\Documents\Workspace\Desafio\Desafio.Domain\obj\Debug\net5.0\Desafio.Domain.csproj.AssemblyReference.cache
+C:\Users\conta\Documents\Workspace\Desafio\Desafio.Domain\obj\Debug\net5.0\Desafio.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\conta\Documents\Workspace\Desafio\Desafio.Domain\obj\Debug\net5.0\Desafio.Domain.AssemblyInfoInputs.cache
+C:\Users\conta\Documents\Workspace\Desafio\Desafio.Domain\obj\Debug\net5.0\Desafio.Domain.AssemblyInfo.cs
+C:\Users\conta\Documents\Workspace\Desafio\Desafio.Domain\obj\Debug\net5.0\Desafio.Domain.csproj.CoreCompileInputs.cache
+C:\Users\conta\Documents\Workspace\Desafio\Desafio.Domain\obj\Debug\net5.0\Desafio.Domain.dll
+C:\Users\conta\Documents\Workspace\Desafio\Desafio.Domain\obj\Debug\net5.0\ref\Desafio.Domain.dll
+C:\Users\conta\Documents\Workspace\Desafio\Desafio.Domain\obj\Debug\net5.0\Desafio.Domain.pdb
