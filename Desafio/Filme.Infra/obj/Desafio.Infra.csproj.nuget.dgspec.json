@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\conta\\Documents\\Workspace\\Desafio\\Filme.Infra\\Desafio.Infra.csproj": {}
+    "C:\\Users\\conta\\Documents\\Workspace\\desafio-api\\Desafio\\Filme.Infra\\Desafio.Infra.csproj": {}
   },
   "projects": {
-    "C:\\Users\\conta\\Documents\\Workspace\\Desafio\\Filme.Infra\\Desafio.Infra.csproj": {
+    "C:\\Users\\conta\\Documents\\Workspace\\desafio-api\\Desafio\\Filme.Infra\\Desafio.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\conta\\Documents\\Workspace\\Desafio\\Filme.Infra\\Desafio.Infra.csproj",
+        "projectUniqueName": "C:\\Users\\conta\\Documents\\Workspace\\desafio-api\\Desafio\\Filme.Infra\\Desafio.Infra.csproj",
         "projectName": "Desafio.Infra",
-        "projectPath": "C:\\Users\\conta\\Documents\\Workspace\\Desafio\\Filme.Infra\\Desafio.Infra.csproj",
+        "projectPath": "C:\\Users\\conta\\Documents\\Workspace\\desafio-api\\Desafio\\Filme.Infra\\Desafio.Infra.csproj",
         "packagesPath": "C:\\Users\\conta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\conta\\Documents\\Workspace\\Desafio\\Filme.Infra\\obj\\",
+        "outputPath": "C:\\Users\\conta\\Documents\\Workspace\\desafio-api\\Desafio\\Filme.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\conta\\AppData\\Roaming\\NuGet\\NuGet.Config",

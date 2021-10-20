@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = Desafio.Infra.Data
-build_property.ProjectDir = C:\Users\conta\Documents\Workspace\Desafio\Desafio.Infra.Data\
+build_property.ProjectDir = C:\Users\conta\Documents\Workspace\desafio-api\Desafio\Desafio.Infra.Data\

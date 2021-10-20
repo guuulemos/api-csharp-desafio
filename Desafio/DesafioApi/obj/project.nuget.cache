@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LngzEJ0YSAuvNQcVHtVq0I5efIRyTImqX9Q0TLVAXUO+qSVj5iv1xgHMrLcfKDCZZqcPwhZBEFIziYlRQ9pZww==",
+  "dgSpecHash": "UuMpLpzxONAWsMEsyTxpfAokjJwFA1SHHvyQ3WEcHxXwGzWJ8tZb119kqNPJRDDuBVS+4wcKWNDYXObGYJWfpQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\conta\\Documents\\Workspace\\Desafio\\DesafioApi\\DesafioApi.csproj",
+  "projectFilePath": "C:\\Users\\conta\\Documents\\Workspace\\desafio-api\\Desafio\\DesafioApi\\DesafioApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\conta\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
     "C:\\Users\\conta\\.nuget\\packages\\flunt\\1.0.5\\flunt.1.0.5.nupkg.sha512",

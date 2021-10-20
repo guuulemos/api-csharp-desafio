@@ -2,20 +2,14 @@ using Desafio.Domain.Handler;
 using Desafio.Domain.Interfaces.Repositories;
 using Desafio.Infra.Data.DataContexts;
 using Desafio.Infra.Data.Repositories;
+using Desafio.Infra.Data.Repositories.Queries;
 using Desafio.Infra.Settings;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace DesafioApi
 {
@@ -41,12 +35,14 @@ namespace DesafioApi
             #region Repositories
 
             services.AddTransient<IFilmeRepository, FilmeRepository>();
+            services.AddTransient<IUsuarioRepository, UsuarioRepository>();
 
             #endregion Repositories
 
             #region Handlers
 
             services.AddTransient<FilmeHandler, FilmeHandler>();
+            services.AddTransient<UsuarioHandler, UsuarioHandler>();
 
             #endregion Handlers
 

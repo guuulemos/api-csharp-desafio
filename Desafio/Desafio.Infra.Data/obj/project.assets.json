@@ -544,11 +544,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\conta\\Documents\\Workspace\\Desafio\\Desafio.Infra.Data\\Desafio.Infra.Data.csproj",
+      "projectUniqueName": "C:\\Users\\conta\\Documents\\Workspace\\desafio-api\\Desafio\\Desafio.Infra.Data\\Desafio.Infra.Data.csproj",
       "projectName": "Desafio.Infra.Data",
-      "projectPath": "C:\\Users\\conta\\Documents\\Workspace\\Desafio\\Desafio.Infra.Data\\Desafio.Infra.Data.csproj",
+      "projectPath": "C:\\Users\\conta\\Documents\\Workspace\\desafio-api\\Desafio\\Desafio.Infra.Data\\Desafio.Infra.Data.csproj",
       "packagesPath": "C:\\Users\\conta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\conta\\Documents\\Workspace\\Desafio\\Desafio.Infra.Data\\obj\\",
+      "outputPath": "C:\\Users\\conta\\Documents\\Workspace\\desafio-api\\Desafio\\Desafio.Infra.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\conta\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -565,11 +565,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\conta\\Documents\\Workspace\\Desafio\\Desafio.Domain\\Desafio.Domain.csproj": {
-              "projectPath": "C:\\Users\\conta\\Documents\\Workspace\\Desafio\\Desafio.Domain\\Desafio.Domain.csproj"
+            "C:\\Users\\conta\\Documents\\Workspace\\desafio-api\\Desafio\\Desafio.Domain\\Desafio.Domain.csproj": {
+              "projectPath": "C:\\Users\\conta\\Documents\\Workspace\\desafio-api\\Desafio\\Desafio.Domain\\Desafio.Domain.csproj"
             },
-            "C:\\Users\\conta\\Documents\\Workspace\\Desafio\\Filme.Infra\\Desafio.Infra.csproj": {
-              "projectPath": "C:\\Users\\conta\\Documents\\Workspace\\Desafio\\Filme.Infra\\Desafio.Infra.csproj"
+            "C:\\Users\\conta\\Documents\\Workspace\\desafio-api\\Desafio\\Filme.Infra\\Desafio.Infra.csproj": {
+              "projectPath": "C:\\Users\\conta\\Documents\\Workspace\\desafio-api\\Desafio\\Filme.Infra\\Desafio.Infra.csproj"
             }
           }
         }

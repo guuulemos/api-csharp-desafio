@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dm3dJr7DOiaXsc6nAYLVf2S/Jd/lS0Pm/jGgban+FP41m80uYgrL5Ww+uwLSLpqtskEVb2INMRrhjIKEMmZsjA==",
+  "dgSpecHash": "zcc/NEmPnfSYQDM3113UvFFxjK4xtiiNuDRPrjbKMQ6r/40OyTsICZJpxzKwFA4K62f6RkUUflizSvDYrSE/4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\conta\\Documents\\Workspace\\Desafio\\Desafio.Domain\\Desafio.Domain.csproj",
+  "projectFilePath": "C:\\Users\\conta\\Documents\\Workspace\\desafio-api\\Desafio\\Desafio.Domain\\Desafio.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\conta\\.nuget\\packages\\flunt\\1.0.5\\flunt.1.0.5.nupkg.sha512"
   ],

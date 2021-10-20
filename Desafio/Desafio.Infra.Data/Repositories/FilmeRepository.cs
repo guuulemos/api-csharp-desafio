@@ -46,7 +46,6 @@ namespace Desafio.Infra.Data.Repositories
             }
             catch (Exception)
             {
-
                 throw;
             }
         }
@@ -61,7 +60,6 @@ namespace Desafio.Infra.Data.Repositories
             }
             catch (Exception)
             {
-
                 throw;
             }
         }
@@ -86,11 +84,10 @@ namespace Desafio.Infra.Data.Repositories
         {
             try
             {
-                return _dataContexto.sqlConnection.Query <FilmeQueryResult>(FilmeQueries.Listar).ToList();
+                return _dataContexto.sqlConnection.Query<FilmeQueryResult>(FilmeQueries.Listar).ToList();
             }
             catch (Exception)
             {
-
                 throw;
             }
         }
@@ -105,7 +102,6 @@ namespace Desafio.Infra.Data.Repositories
             }
             catch (Exception)
             {
-
                 throw;
             } 
         }

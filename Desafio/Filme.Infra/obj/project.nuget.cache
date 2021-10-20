@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N+TUfZL5n7E+JKTYaeotl4OQ0DxuyGUVR3+Fkle44/y8bO15Bz8KLZhCmEC62In/vgTfgYSBiG/Cwx6LOk6E6Q==",
+  "dgSpecHash": "caZbShZP1xKr3XAtU5sYsp1buDfmhukOUsQEEQfhZEFSUKe8tgqEHdi1JvYxxjPfXItBCIJ88g7J2RNs3l9b6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\conta\\Documents\\Workspace\\Desafio\\Filme.Infra\\Desafio.Infra.csproj",
+  "projectFilePath": "C:\\Users\\conta\\Documents\\Workspace\\desafio-api\\Desafio\\Filme.Infra\\Desafio.Infra.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
