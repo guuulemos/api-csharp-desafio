@@ -3,6 +3,7 @@ using Desafio.Domain.Handler;
 using Desafio.Domain.Interfaces.Repositories;
 using Desafio.Domain.Query;
 using Desafio.Infra.Interfaces.Commands;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
@@ -10,6 +11,7 @@ namespace DesafioApi.Controllers
 {
     [Consumes("application/json")]
     [Produces("application/json")]
+    [Authorize(Roles = "admin")]
     [ApiController]
     public class UsuarioController : ControllerBase
     {
