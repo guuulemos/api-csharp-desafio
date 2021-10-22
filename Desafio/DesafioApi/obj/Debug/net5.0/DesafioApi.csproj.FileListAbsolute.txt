@@ -90,4 +90,3 @@ C:\Users\conta\Documents\Workspace\desafio-api\Desafio\DesafioApi\bin\Debug\net5
 C:\Users\conta\Documents\Workspace\desafio-api\Desafio\DesafioApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\conta\Documents\Workspace\desafio-api\Desafio\DesafioApi\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\conta\Documents\Workspace\desafio-api\Desafio\DesafioApi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\conta\Documents\Workspace\desafio-api\Desafio\DesafioApi\obj\Debug\net5.0\DesafioApi.csproj.CopyComplete

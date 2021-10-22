@@ -2,7 +2,7 @@
 {
     public class FilmeQueryResult
     {
-        public long Id { get; set; }
+        public long IdFilme { get; set; }
         public string Titulo { get; set; }
         public string Diretor { get; set; }
     }

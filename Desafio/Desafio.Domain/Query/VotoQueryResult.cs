@@ -2,8 +2,8 @@
 {
     public class VotoQueryResult
     {
-        public long Id { get; private set; }
-        public string NomeUsuario { get; private set; }
-        public string NomeFilme { get; private set; }
+        public long Id { get; set; }
+        public UsuarioQueryResult Usuario { get; set; }
+        public FilmeQueryResult Filme { get; set; }
     }
 }

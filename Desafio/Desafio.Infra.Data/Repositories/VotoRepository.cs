@@ -22,7 +22,17 @@ namespace Desafio.Infra.Data.Repositories
         }
         public void Atualizar(Voto voto)
         {
-            throw new System.NotImplementedException();
+            try
+            {
+                _parameters.Add("IdFilme", voto.IdFilme, DbType.String);
+                _parameters.Add("IdUsuario", voto.IdUsuario, DbType.String);
+
+                _dataContexto.sqlConnection.Execute(VotoQueries.Atualizar, _parameters);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
 
         public bool CheckId(long id)
@@ -41,7 +51,16 @@ namespace Desafio.Infra.Data.Repositories
 
         public void Excluir(long id)
         {
-            throw new System.NotImplementedException();
+            try
+            {
+                _parameters.Add("Id", id, DbType.String);
+
+                _dataContexto.sqlConnection.Query<VotoQueryResult>(VotoQueries.Excluir, _parameters);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
 
         public long Inserir(Voto voto)
@@ -61,12 +80,51 @@ namespace Desafio.Infra.Data.Repositories
 
         public List<VotoQueryResult> Listar()
         {
-            throw new System.NotImplementedException();
+            try
+            {
+                return _dataContexto.sqlConnection.Query<VotoQueryResult, UsuarioQueryResult, FilmeQueryResult, VotoQueryResult>(
+                    VotoQueries.Listar,
+                    map: ((voto, usuario, filme) =>
+                    {
+                        voto.Filme = filme;
+                        voto.Usuario = usuario;
+
+                        return voto;
+                    }),
+                    splitOn: "IdUsuario, IdFilme"
+                    ).ToList();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
         }
 
         public VotoQueryResult Obter(long id)
         {
-            throw new System.NotImplementedException();
+            try
+            {
+                _parameters.Add("Id", id, DbType.String);
+
+                return _dataContexto.sqlConnection.Query<VotoQueryResult, UsuarioQueryResult, FilmeQueryResult, VotoQueryResult>(
+                    VotoQueries.Obter,
+                    map: ((voto, usuario, filme) =>
+                    {
+                        voto.Filme = filme;
+                        voto.Usuario = usuario;
+
+                        return voto;
+                    }),
+                    splitOn: "IdUsuario, IdFilme",
+                    param: _parameters
+                    ).ToList().FirstOrDefault();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
         }
     }
 }
